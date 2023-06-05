@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    color: white;
+     height: auto;
+     width: 100%;
+    background-color: rgb(11, 11, 11);
+    position: fixed;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .navbar h3{
+    padding-left: 5rem;
+    font-size: 25px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0px;
+    padding: 5px;
+    color: aliceblue;
+}
+nav ul {
+    margin-right: 5rem;
+}
+.bannerSection {
+    width: 100%;
+    height: 80vh;
+  background-image: linear-gradient(to right, yellow ,white);
+}
+.banner_iteams{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;  
+}
+h1{
+   font-size: 5rem; 
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bannerSection .banner_iteams p {
+    margin-top: 2.5rem;
+}
+.btn_subscrib{
+    margin-top: 25px;
+    padding:5px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+
+}
+.about{
+   
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    
+}
+.about_conatiner_img{
+    background: #000;
+    width: 100vh;
+    height: 100%;
+    background-size: cover;
+}
+.bout_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+}
+.about_text h1{
+    margin-left: 5rem;
+    margin-top: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px; 
+    text-align:center;
+}
+.service{
+   
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.service_container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.service h1{
+  text-align: center;
+  padding-top: 2vw;
+  font-size: 60px;
+}
+.service_name
+{
+  width: 30%;
+  text-align: center;
+  height: 30%;
+  padding-top: 5vh;
+  margin-bottom: 5vh;
+}
+.client{
+    border: 1px;
+    border-style: solid;
+    width: 100%;
+    height: 40vh;
+}
+.client h1{
+  text-align: center;
+  padding-top: 2vw;
+  font-size: 60px;
+} 
+.class_img_container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+.client_img{
+  padding-top: 10px;
+  width: 10%;  
+}
+.client_img img {
+  width: 80%;
+  height: auto;
+}
+
+.footer_container {
+    height: 15vh;
+    width: 100%;
+    background-color: #000;
+    color: white;
+}
+.footer_container h3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 2rem;
+}
